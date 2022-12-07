@@ -1,0 +1,167 @@
+.sobremi{
+    background-color: var(--white2);
+    color: var(--gray3);
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin:2rem;
+}
+.sobremi h2{
+    font-size: 48px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 5px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 2rem;
+}
+.sobremi .contenido-seccion p span{
+    color: var(--primary);
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+    
+    
+    
+}
+.sobremi .fila .col
+{
+    width: 80%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 28px;
+}
+.sobremi .fila .col ul{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+.sobremi .fila .col ul li{
+    margin: 18px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: var(--primary);
+    width: 120px;
+}
+.sobremi .fila .col ul li span{
+    background-color: var(--primary);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: var(--secondary);
+}
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color:var(--black2);
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--secondary);
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
+/* SECCION S K I L L S */
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progreso{
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
